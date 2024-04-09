@@ -1,0 +1,114 @@
+body {
+    font-family: sans-serif;
+}
+
+img {
+    width: 150px;
+}
+
+.logo>hr {
+    width: 96vw;
+    border-color: rgba(0, 0, 0, 0.178);
+}
+
+.container {
+    display: block;
+    max-width: 1100px;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+.body-container {
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    gap: 20px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.plan {
+    width: 30vw;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+    border-radius: 12px;
+}
+
+.plan-title-1 {
+    display: flex;
+    background: radial-gradient(140.76% 131.96% at 100% 100%, rgb(134, 52, 14) 0%, rgba(74, 42, 150, 0.5) 73.57%, rgba(74, 42, 150, 0) 100%), rgb(29, 82, 157);
+    padding: 10px 16px;
+    margin: 8px;
+    border-radius: 12px;
+    color: white;
+    flex-direction: column;
+    min-height: 60px;
+}
+
+.plan-title-2 {
+    display: flex;
+    background: radial-gradient(140.76% 131.96% at 100% 100%, rgb(176, 56, 220) 0%, rgba(74, 42, 150, 0.5) 73.57%, rgba(74, 42, 150, 0) 100%), rgb(29, 82, 157);    padding: 10px 16px;
+    margin: 8px;
+    border-radius: 12px;
+    color: white;
+    flex-direction: column;
+    min-height: 60px;
+}
+
+.plan-title-3 {
+    display: flex;
+    background: radial-gradient(140.76% 131.96% at 100% 100%, rgb(109, 59, 227) 0%, rgba(74, 42, 150, 0.5) 73.57%, rgba(74, 42, 150, 0) 100%), rgb(29, 82, 157);    padding: 10px 16px;
+    margin: 8px;
+    border-radius: 12px;
+    color: white;
+    flex-direction: column;
+    min-height: 60px;
+}
+
+span {
+    font-size: 1.25rem;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+.body-plan {
+   padding: 0px 25px; 
+   box-sizing: border-box;
+}
+
+.plan-specs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul>li {
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+    margin: 0px;
+    padding: 12px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+}
+
+li>* {
+    display: inline;
+    margin: 0;
+    font-size: 0.9rem;
+    color: rgb(118, 118, 118);
+}
+
+.price {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 9);
+}
+
+.plan-button {
+    padding: 10px;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    top: auto;
+}
