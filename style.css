@@ -1,38 +1,62 @@
 body {
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 img {
     width: 150px;
+    margin: 15px 0px 0px 30px;
 }
 
-.logo>hr {
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top>.sign-in {
+   margin: 0 30px ;
+   color: black;
+   font-size: 1.2em;
+   font-weight: lighter;
+   text-decoration: none;
+}
+
+
+hr {
     width: 96vw;
-    border-color: rgba(0, 0, 0, 0.178);
+    border-color: rgba(0, 0, 0, 0.187);
+    margin: 0 auto;
 }
 
 .container {
     display: block;
-    max-width: 1100px;
+    max-width: 900px;
     justify-items: center;
     margin: 0 auto;
+    border-color: red;
 }
 
 .body-container {
     display: flex;
-    justify-content: space-between;
-    height: 50vh;
+    justify-content: center;
     gap: 20px;
 }
 
+.header-container {
+    padding: 30px 0 5px 0 ;
+}
+
 h1 {
+    font-size: 1.7em;
     margin-top: 0;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.743);
 }
 
 .plan {
-    width: 30vw;
     border: 1px solid rgba(0, 0, 0, 0.363);
     border-radius: 12px;
+    display: block;
 }
 
 .plan-title-1 {
@@ -99,16 +123,43 @@ li>* {
     color: rgb(118, 118, 118);
 }
 
-.price {
+.bold {
     font-size: 1rem;
     color: rgba(0, 0, 0, 9);
 }
 
-.plan-button {
-    padding: 10px;
-    background-color: #ff6600;
+.plan-button, .next-buttom {
+    
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    padding: 15px 30px;
+    background-color: #0400ff75;
     color: #fff;
     border-radius: 5px;
     border: none;
-    top: auto;
+    text-decoration: none;
+    font-size: 0.85rem;
+    
+}
+
+.bottom-container>p {
+    color: #737373;
+    display: block;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.next-buttom>a {
+    background-color: #0400ff75;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 10px 150px;
 }
